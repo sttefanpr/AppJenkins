@@ -25,9 +25,9 @@ pipeline {
     *   ProductionEnvironment     -> Where your apps are live.
     */
     DevelopmentEnvironment = 'Development'
-    RegressionEnvironment = 'Regression'
-    AcceptanceEnvironment = 'Acceptance'
-    PreProductionEnvironment = 'Pre-Production'
+    //RegressionEnvironment = 'Regression'
+    //AcceptanceEnvironment = 'Acceptance'
+    //PreProductionEnvironment = 'Pre-Production'
     ProductionEnvironment = 'Production'
     // Regression URL Specification
     ProbeEnvironmentURL = 'https://sysmanager-dev.outsystemscloud.com'
