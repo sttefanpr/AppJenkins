@@ -27,13 +27,13 @@ pipeline {
     DevelopmentEnvironment = 'Development'
     ProductionEnvironment = 'Production'
     DevelopmentEnvironmentLabel = 'Development'
-    //RegressionEnvironment = 'Regression'
-    //AcceptanceEnvironment = 'Acceptance'
-    //PreProductionEnvironment = 'Pre-Production'
+    //RegressionEnvironmentLabel = 'Regression'
+    //AcceptanceEnvironmentLabel = 'Acceptance'
+    //PreProductionEnvironmentLabel = 'PreProduction'
+    //ProductionEnvironmentLabel = 'Production'
     // Regression URL Specification
-    ProbeEnvironmentURL = 'https://sysmanager-dev.outsystemscloud.com'
-    BddEnvironmentURL = 'https://sysmanager-dev.outsystemscloud.com'
-    // OutSystems PyPI package version
+    CICDProbeEnvironmentURL = 'https://sysmanager-dev.outsystemscloud.com'
+    BDDFrameworkEnvironmentURL = 'https://sysmanager-dev.outsystemscloud.com'
     OSPackageVersion = '0.4.0'
   }
   stages {
