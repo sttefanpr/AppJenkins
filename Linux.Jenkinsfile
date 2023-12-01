@@ -11,7 +11,7 @@ pipeline {
     // Artifacts Folder
     ArtifactsFolder = "Artifacts"
     // LifeTime Specific Variables
-    LifeTimeHostname = 'lifetime.acmecorp.com'
+    LifeTimeHostname = 'https://sysmanager-dev.outsystemscloud.com'
     LifeTimeAPIVersion = 2
     // Authentication Specific Variables
     AuthorizationToken = credentials('LifeTimeServiceAccountToken')
@@ -30,8 +30,8 @@ pipeline {
     PreProductionEnvironment = 'Pre-Production'
     ProductionEnvironment = 'Production'
     // Regression URL Specification
-    ProbeEnvironmentURL = 'https://regression-env.acmecorp.com/'
-    BddEnvironmentURL = 'https://regression-env.acmecorp.com/'
+    ProbeEnvironmentURL = 'https://sysmanager-dev.outsystemscloud.com'
+    BddEnvironmentURL = 'https://sysmanager-dev.outsystemscloud.com'
     // OutSystems PyPI package version
     OSPackageVersion = '0.4.0'
   }
